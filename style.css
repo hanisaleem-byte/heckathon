@@ -1,0 +1,154 @@
+
+
+
+
+
+
+
+
+
+
+
+.registerbtn{
+    background-color: #7C4EE4;
+    color: white;
+    width: 128px;
+    height: 39px;
+border-radius: 0%;
+}
+.registerbtn:hover{
+
+        background-color: #7C4EE4;
+            color: white;
+
+
+}
+.h11{
+    color: white;
+    font-size: 60px;
+}
+
+.secondbtn{
+    background-color: white;
+    color: black;
+}
+.secondbtn:hover{
+     background-color: white;
+    color: black;
+
+}
+.conta{
+    background-color: #7C4EE4;
+    
+}
+
+.para1{
+    color: white;
+    height: ;
+}
+.backimg{
+    background-size: cover;
+}
+.hero-image {
+    border: 2px solid #ff00e9; /* Pink outline like screenshot */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.info-card {
+    background: #ffffff;
+    position: absolute;
+    left: 70%;
+    bottom: -40px;
+    transform: translateX(-50%);
+    width: 70%;
+    
+}
+
+.readmore-btn {
+    background: transparent;
+    border: 1.5px solid #b094ff;
+    color: #6d39ff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.readmore-btn:hover {
+    background: #6d39ff;
+    color: #fff;
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+    .info-card {
+        width: 100%;
+        bottom: -40px;
+        padding: 25px;
+    }
+}
+/* Newsletter Section */
+.newsletter-section {
+    background: #8a30e3;
+    background-image: url('images/waves.png'); /* OPTIONAL if you have the waves */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 20px 20px;
+}
+
+.email-input {
+    width: 280px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.get-started-btn {
+    background: #ffffff;
+    color: #8a30e3;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.get-started-btn:hover {
+    background: #f2e5ff;
+}
+
+
+/* Footer */
+.footer-section {
+    background: #ffffff;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.footer-links li a:hover {
+    color: #8a30e3;
+}
+
+.social-icons span {
+    display: inline-block;
+    background: #8a30e3;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 3px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.social-icons span:hover {
+    opacity: 0.8;
+}
